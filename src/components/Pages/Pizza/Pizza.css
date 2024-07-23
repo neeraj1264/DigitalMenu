@@ -1,0 +1,43 @@
+ .modeldialog{
+  margin:   6rem 0 0 0;
+}
+.modalfooter {
+    background: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+.modal-backdrop.show {
+    opacity: var(--bs-backdrop-opacity);
+    background: white;
+}
+.quantity-update{
+    background-color: #ffeded;
+    border-radius: .7rem;
+}
+.addtocart{
+    background-color: var(--bg);
+    color: white;
+    border: none;
+}
+.modalheader{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    z-index: 999;
+}
+input[type="radio"] {
+   accent-color: var(--bg);
+   border: 1px solid red;
+  }
+  .form-check-input:checked {
+    background-color: var(--bg);
+    border-color: var(--bg);
+  }
+  .form-check-input{
+    border: 2px solid grey;
+
+  }
+  

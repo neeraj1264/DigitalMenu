@@ -1,0 +1,45 @@
+.card-body {
+  flex: 1 1 auto;
+  text-align: center;
+  font-weight: 800;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: var(--bg);
+  }
+  
+  .card {
+    width: auto;
+    margin: 0 0.5rem;
+    border: none;
+  }
+  .card img{
+    width: 40px;
+    height: 40px;
+    /* object-fit: cover; */
+    margin: 0 auto;
+    border: 0px solid blue;
+    border-radius: 50%;
+    background: black;
+ }
+  
+ .card-text{
+  font-size: .7rem;
+ }
+
+  .outer-card {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff; /* Add your desired background color */
+    z-index: 1000; /* Set a high z-index to ensure it's above other content */
+    display: flex;
+    padding-top: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for styling */
+    flex-wrap: nowrap;
+    overflow-x: auto; 
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;  
+  }
+
+  

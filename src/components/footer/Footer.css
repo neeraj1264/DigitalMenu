@@ -1,0 +1,79 @@
+footer {
+  color: #fff !important;
+  margin: 5rem 0 0 0;
+  padding: 0.5rem 1rem;
+  border-radius: 3rem;  position: fixed;
+  bottom: 2rem;
+  width: fit-content;
+  left: 38%;
+  align-items: center;
+}
+/* .grocery {
+  background-color: white;
+  color: var(--bg);
+} */
+.badge {
+  position: absolute;
+  top: 0.2rem;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin: 0 0.5rem;
+  /* background: var(--bg); */
+  /* padding: .5rem;
+    border-radius: 50%; */
+}
+.footer-content .i {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: whitesmoke;
+  padding: .5rem;
+  border-radius: 50%;
+  text-decoration: none;
+  color: var(--bg);
+  box-shadow: 0px 1px 7px 3px var(--bg);
+}
+.cartno{
+  font-size: .6rem !important;
+  margin-left: -.5rem;
+  background-color: white !important;
+  color: white;
+}
+.footer-content .grocery {
+  padding: 0 1rem;
+  border-radius: 0.3rem;
+}
+.nav-link .icon {
+  font-size: 1.2rem;
+  /* margin-bottom: 0.2rem; */
+}
+.nav-link{
+  font-size: .8rem !important;
+}
+.nav-link.active  {
+  font-weight: 800;
+  /* font-size: .8rem; */
+  background: white;
+  color: var(--bg) !important;
+  padding: .2rem .5rem;
+  border-radius: .5rem;
+}
+.nav-link.pad.active{
+  font-weight: 800;
+    font-size: 1rem;
+    background: white;
+    color: var(--bg) !important;
+    padding: .2rem 1.3rem;
+    border-radius: .5rem;
+}
+.G-icon{
+font-size: 1.2rem;
+}
+.G-name{
+  font-size: .8rem;
+}
