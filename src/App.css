@@ -31,8 +31,7 @@ a {
 .add-btn button {
   color: var(--bg);
   font-weight: 800;
-  padding: 0.2rem .5rem;
-  font-size: .8rem;
+  padding: 0.2rem .7rem;
 }
 .added {
   border: none;
