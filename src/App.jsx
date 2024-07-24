@@ -71,6 +71,7 @@ function App() {
       <Route path="Pizza" element={<Pizza />} />
       <Route path="Burger" element={<Burger />} /> */}
       <Route path="/" element={<Navigate to="/menu" />} />
+      <Route path="/menu" element={<Navigate to="/menu" />} />
       <Route path="cart" element={<Cart />} />
       <Route path="menu" element={<MenuLayout/>} />
     </Route>

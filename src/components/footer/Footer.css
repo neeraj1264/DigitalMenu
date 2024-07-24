@@ -1,9 +1,8 @@
 footer {
   color: #fff !important;
-  margin: 5rem 0 0 0;
   padding: 0.5rem 1rem;
   border-radius: 3rem;  position: fixed;
-  bottom: 2rem;
+  bottom: 4rem;
   width: fit-content;
   left: 38%;
   align-items: center;
@@ -76,4 +75,25 @@ font-size: 1.2rem;
 }
 .G-name{
   font-size: .8rem;
+}
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.bump {
+  animation: bump 2s ease-out;
 }
