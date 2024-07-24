@@ -30,65 +30,33 @@ function Footer() {
   if (location.pathname === "/cart") {
     return null;
   }
-  useEffect(() => {
-    if (cartItemsCount > 0) {
-      setIsBumping(true);
-      const timer = setTimeout(() => {
-        setIsBumping(false);
-      }, 300);
-      return () => clearTimeout(timer);
-    }
-  }, [cartItemsCount]);
+  // useEffect(() => {
+  //   if (cartItemsCount > 0) {
+  //     setIsBumping(true);
+  //     const timer = setTimeout(() => {
+  //       setIsBumping(false);
+  //     }, 300);
+  //     return () => clearTimeout(timer);
+  //   }
+  // }, [cartItemsCount]);
   return (
     <>
       <footer>
         <div className="footer-content">
-          {/* <NavLink to="/" className="nav-link i" activeclassname="active">
-            <IoHomeOutline className="icon" />
-            <span className="icon-name">Home</span>
-          </NavLink>
 
-          <NavLink to="/menu" className="nav-link i" activeclassname="active">
-            <MdRestaurantMenu className="icon" />
-            <span className="icon-name">Menu</span>
-          </NavLink> */}
           {cartItemsCount > 0 && (
-            <NavLink
-              to="/cart"
-              className={`nav-link pad i ${isBumping ? "bump" : ""}`}
-              activeclassname="active"
-            >
-              <div className="cart">
-                <FaCartPlus className="icon" />
+            <NavLink to="/cart" className="nav-link pad i" activeclassname="active">
+            <div className="cart">
+              <FaCartPlus className="icon" />
                 <Badge bg="danger" className=" cartno">
                   {cartItemsCount}
                 </Badge>
               </div>
-              {/* <span className="icon-name">Cart</span> */}
             </NavLink>
           )}
-
-          {/* <div className="" onClick={handleGroceryClick}>
-            <GiSlicedBread className="G-icon" />
-            <div className="G-name">Grocery </div>
-          </div> */}
         </div>
       </footer>
 
-      {/* Modal for Grocery */}
-      {/* <Modal show={showModal} onHide={handleCloseModal}>
-        <Modal.Header closeButton>
-          <Modal.Title>Coming Soon</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <p>Grocery Item Coming Soon. Stay tuned!</p>
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" style={{background: '#d32e2e', border: 'none'}} onClick={handleCloseModal}>
-            Close
-          </Button>
-        </Modal.Footer>
-      </Modal> */}
     </>
   );
 }
