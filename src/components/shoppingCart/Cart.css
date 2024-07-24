@@ -67,3 +67,9 @@ margin: auto;
   padding: 0.4rem 1rem;
   font-weight: 800;
 }
+.btnn{
+  background: #198754;
+  color: white;
+  border-radius: 1rem;
+  font-weight: 700;
+}

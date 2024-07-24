@@ -392,7 +392,7 @@ Service Charge: ₹20.00`;
                     Back
                   </button>
                   <button
-                    className="btnn btn-success"
+                   className="btnn btn-success"
                     onClick={() => handlePlaceOrder()}
                   >
                     Place Order
