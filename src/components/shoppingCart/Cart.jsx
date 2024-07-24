@@ -355,7 +355,7 @@ ${productDetails}
                           className="nettotal"
                           // style={{ textAlign: "center", fontWeight: 800 , fontSize: "1rem" , border: "none"}}
                         >
-                          Net Total: <span style={{marginLeft:"1rem"}}>{calculateTotal()}</span>
+                          Net Total: <span style={{marginLeft:"1rem"}}>{calculateTotal()}/-</span>
                         </td>
                         {/* <td
                           style={{

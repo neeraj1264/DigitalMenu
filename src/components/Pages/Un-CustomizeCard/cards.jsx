@@ -115,6 +115,7 @@ const Cards = ({ id, name, description, price, image, mrp }) => {
                   borderRadius: ".5rem",
                   padding: ".2rem .5rem",
                   fontSize: ".8rem",
+                  boxShadow: "1px 0px 3px 3px white"
                 }}
                 onClick={handleRemoveToCart}
               >

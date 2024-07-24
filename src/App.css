@@ -15,7 +15,8 @@ a {
   border-radius: 1rem;
 }
 .add-btn {
-  border: 1px solid var(--bg);
+  /* border: 1px solid var(--bg); */
+  box-shadow: 1px 0px 3px 3px var(--bg);
   background: whitesmoke;
   width: fit-content;
   align-items: center;

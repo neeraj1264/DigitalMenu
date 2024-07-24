@@ -40,6 +40,8 @@
     overflow-x: auto; 
     scrollbar-width: thin;
     scrollbar-color: transparent transparent;  
+    border-radius: 0 0 1rem 1rem;
+    box-shadow: 1px 0px 3px 3px var(--bg);
   }
 
   
