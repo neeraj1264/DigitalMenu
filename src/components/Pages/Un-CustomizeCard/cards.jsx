@@ -22,8 +22,6 @@ const Cards = ({ id, name, description, price, image, mrp }) => {
   const [showFullDescription, setShowFullDescription] = useState(false);
   const toggleDescription = () => setShowFullDescription(!showFullDescription);
 
-  const truncatedDescription =
-    description.length > 100 ? description.substring(0, 100) : description;
 
   useEffect(() => {
     // Retrieve quantity from local storage on component mount
@@ -87,10 +85,10 @@ const Cards = ({ id, name, description, price, image, mrp }) => {
               description
             ) : (
               <>
-                {description.length > 50
-                  ? description.substring(0, 20) + "..."
+                {description.length > 40
+                  ? description.substring(0, 40) + "..."
                   : description}
-                {description.length > 50 && (
+                {description.length > 40 && (
                   <span style={{ color: "black", fontWeight: 500 }}>
                     {" "}
                     read more
@@ -114,7 +112,6 @@ const Cards = ({ id, name, description, price, image, mrp }) => {
                   background: "#d32e2e",
                   borderRadius: ".5rem",
                   padding: ".2rem .5rem",
-                  fontSize: ".8rem",
                   boxShadow: "1px 0px 3px 3px white"
                 }}
                 onClick={handleRemoveToCart}

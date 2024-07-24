@@ -178,8 +178,8 @@ const CustomCard = ({ id, name, description, price, image, mrp , size}) => {
           <p className="description" onClick={toggleDescription}>
             {showFullDescription ? description : (
     <>
-      {description.length > 20 ? description.substring(0, 20) + "..." : description}
-      {description.length > 20 && <span style={{ color: "black", fontWeight: 500 }}> read more</span>}
+      {description.length > 40 ? description.substring(0, 40) + "..." : description}
+      {description.length > 40 && <span style={{ color: "black", fontWeight: 500 }}> read more</span>}
     </>
   )}
           </p>

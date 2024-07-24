@@ -267,10 +267,10 @@ const PizzaPage = ({ id, name, description, price, image, mrp, size }) => {
               description
             ) : (
               <>
-                {description.length > 20
-                  ? description.substring(0, 20) + "..."
+                {description.length > 40
+                  ? description.substring(0, 40) + "..."
                   : description}
-                {description.length > 20 && (
+                {description.length > 40 && (
                   <span style={{ color: "black", fontWeight: 500 }}>
                     {" "}
                     read more
