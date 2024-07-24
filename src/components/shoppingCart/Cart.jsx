@@ -98,7 +98,7 @@ const Cart = ({ id }) => {
         : 0;
 
       return total + basePrice + addonsPrice + cheesesPrice;
-    }, 20); // Assuming 20 is the initial total (Service Charge)
+    }, 0); // Assuming 20 is the initial total (Service Charge)
   };
 
   useEffect(() => {
@@ -187,7 +187,7 @@ const Cart = ({ id }) => {
         ? item.cheeses.map((cheese) => `${cheese.name} + ₹${cheese.price}\n\n`)
         : [];
   
-      return `${item.quantity}.0 x ${item.name}= ₹${calculateTotalForItem(item)}\n${addonsDetails.join("\n")}\n${cheesesDetails.join("")}`;
+      return `${item.quantity}.0 x ${item.name}= ${calculateTotalForItem(item)}\n${addonsDetails.join("\n")}\n${cheesesDetails.join("")}`;
     });
 
    const productDetails = orderDetails.join("");
@@ -329,7 +329,7 @@ Service Charge: ₹20.00`;
                               paddingRight: ".5rem",
                             }}
                           >
-                            ₹{calculateTotalForItem(item)}
+                            {calculateTotalForItem(item)}
                           </td>
                         </tr>
                       ))
@@ -355,7 +355,7 @@ Service Charge: ₹20.00`;
                           className="nettotal"
                           // style={{ textAlign: "center", fontWeight: 800 , fontSize: "1rem" , border: "none"}}
                         >
-                          Net Total <span style={{marginLeft:"1rem"}}>₹{calculateTotal()}</span>
+                          Net Total: <span style={{marginLeft:"1rem"}}>{calculateTotal()}</span>
                         </td>
                         {/* <td
                           style={{

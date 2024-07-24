@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import Layout from './Layout';
 import Pizza from './components/Pages/Pizza/Pizza';
 import Cart from './components/shoppingCart/Cart';
@@ -70,6 +70,7 @@ function App() {
       {/* <Route path="Pasta" element={<Pasta />} />
       <Route path="Pizza" element={<Pizza />} />
       <Route path="Burger" element={<Burger />} /> */}
+      <Route path="/" element={<Navigate to="/menu" />} />
       <Route path="cart" element={<Cart />} />
       <Route path="menu" element={<MenuLayout/>} />
     </Route>
