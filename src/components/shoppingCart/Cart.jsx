@@ -198,7 +198,7 @@ Order      : *ORD-${orderId}*
 Amount   : *₹${total}*
     ----------Items----------\n
 ${productDetails}
-Service Charge: ₹20.00`;
+`;
 
     const whatsappLink =
       "https://api.whatsapp.com/send?phone=" +
