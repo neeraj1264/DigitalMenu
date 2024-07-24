@@ -1,8 +1,8 @@
 import React, { useState , useEffect } from "react";
 import "./Footer.css";
 import { NavLink, useLocation } from "react-router-dom";
-// import { FaShoppingBasket } from 'react-icons/fa';
 import { FaCartPlus } from "react-icons/fa";
+import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import { IoHomeOutline } from "react-icons/io5";
 // import { MdOutlineLocalGroceryStore } from "react-icons/md";
 import { GiSlicedBread } from "react-icons/gi";
@@ -41,21 +41,21 @@ function Footer() {
   // }, [cartItemsCount]);
   return (
     <>
+    {cartItemsCount > 0 && (
       <footer>
         <div className="footer-content">
 
-          {cartItemsCount > 0 && (
+          
             <NavLink to="/cart" className="nav-link pad i" activeclassname="active">
             <div className="cart">
-              <FaCartPlus className="icon" />
-                <Badge bg="danger" className=" cartno">
-                  {cartItemsCount}
-                </Badge>
+            {cartItemsCount} {" "} item added{" "}
+              <FaRegArrowAltCircleRight className="icon" /><br/>
+              <b className="worth">View cart or continue shopping.</b>
               </div>
             </NavLink>
-          )}
         </div>
       </footer>
+          )}
 
     </>
   );

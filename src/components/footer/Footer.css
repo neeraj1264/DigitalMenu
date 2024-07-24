@@ -1,41 +1,44 @@
 footer {
   color: #fff !important;
   padding: 0.5rem 1rem;
-  border-radius: 3rem;  position: fixed;
-  bottom: 4rem;
-  width: fit-content;
-  left: 38%;
+  /* border-radius: 3rem; */
+  position: fixed;
+  bottom: 0;
+  /* width: fit-content; */
+  width: 100%;
+  /* left: 38%; */
   align-items: center;
+  background: var(--bg);
+  border-radius: 1rem 1rem 0 0 ;
 }
-/* .grocery {
-  background-color: white;
-  color: var(--bg);
-} */
 .badge {
   position: absolute;
   top: 0.2rem;
 }
 .footer-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 100%;
   margin: 0 0.5rem;
-  /* background: var(--bg); */
-  /* padding: .5rem;
-    border-radius: 50%; */
 }
 .footer-content .i {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: whitesmoke;
-  padding: .5rem;
+  /* background: whitesmoke; */
   border-radius: 50%;
   text-decoration: none;
-  color: var(--bg);
-  box-shadow: 0px 1px 7px 3px var(--bg);
+  color: white;
+}
+.cart{
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+.worth{
+  font-weight: 400;
 }
 .cartno{
   font-size: .6rem !important;
@@ -48,8 +51,11 @@ footer {
   border-radius: 0.3rem;
 }
 .nav-link .icon {
-  font-size: 1.2rem;
-  /* margin-bottom: 0.2rem; */
+  font-size: 1.3rem;
+  color: var(--bg);
+  background: white;
+  border-radius: 3rem;
+  margin-bottom: .3rem;
 }
 .nav-link{
   font-size: .8rem !important;
