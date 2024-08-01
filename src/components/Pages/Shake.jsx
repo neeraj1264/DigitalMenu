@@ -18,7 +18,7 @@ const Shake = () => {
   
   return (
     <>
-      <h2 id='shake' style={{textAlign: 'center' , marginTop: '5rem'}}>Delicious Shakes</h2>
+      <h2 id='shake' style={{textAlign: 'center' , marginTop: '6rem'}}>Delicious Shakes</h2>
       {renderCards(ShakesData)}
     </>
   );

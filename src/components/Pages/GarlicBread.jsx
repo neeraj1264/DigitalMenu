@@ -13,7 +13,7 @@ const GarlicBread = () => {
   
   return (
     <>
-      <h2 id='garlic' style={{textAlign: 'center' , marginTop: '5rem'}}>Delicious Garlic Bread</h2>
+      <h2 id='garlic' style={{textAlign: 'center' , marginTop: '6rem'}}>Delicious Garlic Bread</h2>
       {renderCards(GarlicBreadData)}
     </>
   );

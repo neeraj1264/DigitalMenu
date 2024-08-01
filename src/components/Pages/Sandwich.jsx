@@ -13,7 +13,7 @@ const Sandwich = () => {
   
   return (
     <>
-      <h2 id='sandwich' style={{textAlign: 'center' , marginTop: '5rem'}}>Delicious Sandwich</h2>
+      <h2 id='sandwich' style={{textAlign: 'center' , marginTop: '6rem'}}>Delicious Sandwich</h2>
       {renderCards(SandwichData)}
     </>
   );

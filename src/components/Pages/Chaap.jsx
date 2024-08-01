@@ -15,7 +15,7 @@ const Chaap = () => {
   
   return (
     <>
-      <h2 id='chaap' style={{textAlign: 'center' , marginTop: '5rem'}}>Delicious Chaap</h2>
+      <h2 id='chaap' style={{textAlign: 'center' , marginTop: '6rem'}}>Delicious Chaap</h2>
       {renderCards(ChaapData)}
     </>
   );

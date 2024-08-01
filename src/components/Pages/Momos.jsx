@@ -13,7 +13,7 @@ const Momos = () => {
   
   return (
     <>
-      <h2 id='momos' style={{textAlign: 'center' , marginTop: '5rem'}}>Delicious Momos</h2>
+      <h2 id='momos' style={{textAlign: 'center' , marginTop: '6rem'}}>Delicious Momos</h2>
       {renderCards(MomosData)}
     </>
   );

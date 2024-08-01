@@ -18,7 +18,7 @@ const Fruit = () => {
   
   return (
     <>
-      <h2 id='fruits' style={{textAlign: 'center' , marginTop: '5rem'}}>Fruit Chaat</h2>
+      <h2 id='fruits' style={{textAlign: 'center' , marginTop: '6rem'}}>Fruit Chaat</h2>
       {renderCards(Data)}
     </>
   );

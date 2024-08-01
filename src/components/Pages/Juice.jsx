@@ -16,7 +16,7 @@ const Juice = () => {
   
   return (
     <>
-      <h2 id='juice' style={{textAlign: 'center' , marginTop: '5rem'}}>Fresh Juices</h2>
+      <h2 id='juice' style={{textAlign: 'center' , marginTop: '6rem'}}>Fresh Juices</h2>
       {renderCards(Data)}
     </>
   );

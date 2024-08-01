@@ -25,7 +25,7 @@ const PizzaData = [
 const Pizza = () => {
   return (
     <div>
-      <h2 id="pizza" style={{ textAlign: "center", marginTop: "5rem" }}>
+      <h2 id="pizza" style={{ textAlign: "center", marginTop: "6rem" }}>
         Delicious Pizza
       </h2>
       {PizzaData.map((Pizza) => (

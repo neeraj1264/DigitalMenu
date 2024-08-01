@@ -15,7 +15,7 @@ const Pasta = () => {
   
   return (
     <>
-       <h2 id='pasta' style={{textAlign: 'center' , marginTop: '5rem'}}>Delicious Pasta</h2>
+       <h2 id='pasta' style={{textAlign: 'center' , marginTop: '6rem'}}>Delicious Pasta</h2>
        {renderCards(pastaData)}
     </>
   );
