@@ -1,0 +1,22 @@
+.header{
+    background-color: var(--bg);
+    border-radius: 0 0 1rem 1rem;
+    color: whitesmoke;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+.chat{
+    text-align: center;
+    font-weight: 700;
+    background-color: whitesmoke;
+    color: var(--bg);
+    padding: .1rem .5rem;
+    border-radius: 1rem;
+    border: 1px solid darkgoldenrod;
+}
+.img img{
+    height: 2.3rem;
+    width: 2.3rem;
+    /* border-radius: 1rem;
+    border: 1px solid darkgoldenrod; */
+}

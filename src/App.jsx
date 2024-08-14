@@ -6,6 +6,7 @@ import Cart from './components/shoppingCart/Cart';
 import MenuLayout from './MenuLayout';
 import { useEffect, useState } from 'react';
 import { HashLoader } from 'react-spinners';
+import MyCarousel from './components/banner/Banner';
 function App() {
   const [installPrompt, setInstallPrompt] = useState(null);
   const [Loading, SetLoading] = useState(true)
@@ -66,11 +67,11 @@ function App() {
  
  <Routes>
     <Route path="" element={<Layout />}>
- 
+    <Route index element={<MyCarousel/>} />
       {/* <Route path="Pasta" element={<Pasta />} />
       <Route path="Pizza" element={<Pizza />} />
       <Route path="Burger" element={<Burger />} /> */}
-      <Route path="/" element={<Navigate to="/menu" />} />
+      {/* <Route path="/" element={<Navigate to="/menu" />} /> */}
       {/* <Route path="menu" element={<Navigate to="/menu" />} /> */}
       <Route path="cart" element={<Cart />} />
       <Route path="menu" element={<MenuLayout/>} />
