@@ -2,11 +2,11 @@
 
 .contact-form-container {
     max-width: 300px;
-    margin: 0 auto 7rem;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 3rem auto;
   }
   
   h2 {
