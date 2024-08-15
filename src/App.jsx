@@ -6,6 +6,7 @@ import MenuLayout from './MenuLayout';
 import { useEffect, useState } from 'react';
 import { HashLoader } from 'react-spinners';
 import MyCarousel from './components/banner/Banner';
+import AddToHomeModal from './components/AddToHome/AddToHome';
 function App() {
   const [installPrompt, setInstallPrompt] = useState(null);
   const [Loading, SetLoading] = useState(true)
