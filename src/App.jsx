@@ -1,7 +1,6 @@
 import './App.css'
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import Layout from './Layout';
-import Pizza from './components/Pages/Pizza/Pizza';
 import Cart from './components/shoppingCart/Cart';
 import MenuLayout from './MenuLayout';
 import { useEffect, useState } from 'react';
