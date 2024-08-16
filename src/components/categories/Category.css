@@ -34,7 +34,6 @@
     background-color: #fff; /* Add your desired background color */
     z-index: 1000; /* Set a high z-index to ensure it's above other content */
     display: flex;
-    padding-top: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for styling */
     flex-wrap: nowrap;
     overflow-x: auto; 

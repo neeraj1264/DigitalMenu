@@ -45,9 +45,9 @@ function Category() {
   return (
     <>
     <div className="outer-card">
-      <NavLink to={"/"}>
+      {/* <NavLink to={"/"}>
     <FaArrowLeftLong className="leftarrow"/>
-    </NavLink>
+    </NavLink> */}
       {categories.map((category) => (
         <Link
           to={`#${encodeURIComponent(category.name)}`}

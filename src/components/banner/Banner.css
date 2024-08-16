@@ -87,7 +87,7 @@ bottom: -14px;
 
 .whatsapp-button {
   position: fixed;
-  bottom: 20px; /* Adjust as needed */
+  bottom: 2rem; /* Adjust as needed */
   right: 20px;  /* Adjust as needed */
   background-color: #25D366; /* WhatsApp green */
   color: white;
@@ -101,7 +101,7 @@ bottom: -14px;
   text-decoration: none;
   font-size: 24px;
   z-index: 1000; /* Ensure it stays on top */
-  animation: pulsate 1.5s infinite; /* Apply the pulsate animation */
+  animation: pulsate 1s infinite; /* Apply the pulsate animation */
   padding: .3rem;
 }
 
@@ -111,7 +111,6 @@ bottom: -14px;
     width: 50px;
     height: 50px;
     font-size: 20px;
-    bottom: 20px;
     left: 8px;
   }
 }
