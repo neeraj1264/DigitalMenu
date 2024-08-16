@@ -5,6 +5,8 @@ import { Link, NavLink } from 'react-router-dom';
 import Header from '../Header/Header';
 // import AboutUs from '../about/AboutUs';
 import ContactForm from '../ContactUs/Contact';
+import { FaWhatsapp } from "react-icons/fa";
+
 const items = [
   { id: 2,  imageUrl: '/img/juice/mosambi.jpeg',title: 'Fresh Juice',        target: 'juice'    , description: "A refreshing citrus delight mademade from sweet and tangy mosambi (sweet lime), packed with Vitamin C and antioxidants.",},
   { id: 10, imageUrl: '/img/shakes.jpg',        title: 'Delicious Shakes',   target: 'shake'    , description: 'Rich and indulgent shakes crafted with the finest ingredients for pure delight.' },
@@ -33,6 +35,22 @@ const MyCarousel = () => {
     };
   }, []); // Empty dependency array ensures this effect runs once when the component mounts
 
+  const handlePlaceOrder = () => {
+    const whatsappNumber = "+917015823645";
+    const message = `Hello! I'm interested in placing an order. Could you please provide me with more information about your menu options and delivery timings? Thanks!`;
+
+    const whatsappLink =
+      "https://api.whatsapp.com/send?phone=" +
+      encodeURIComponent(whatsappNumber) +
+      "&text=" +
+      encodeURIComponent(message);
+
+    console.log("WhatsApp link:", whatsappLink);
+
+    // Open WhatsApp chat in a new window
+    window.open(whatsappLink, "_blank");
+  };
+
   return (
     <>
     <Carousel activeIndex={index} onSelect={handleSelect} controls={false}>
@@ -54,6 +72,7 @@ const MyCarousel = () => {
     </Carousel>
     <Header/>
      <img className='shop' src='img\banner.jpeg'/>
+     <FaWhatsapp className='whatsapp-button' onClick={() => handlePlaceOrder()}/>
 
 {/* <AboutUs/> */}
 <ContactForm/> 

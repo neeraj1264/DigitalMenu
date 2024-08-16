@@ -13,6 +13,7 @@
     padding: .1rem .5rem;
     border-radius: 1rem;
     border: 1px solid darkgoldenrod;
+    box-shadow: 0px 0px 4px 0px white;
 }
 .img img{
     height: 3.3rem;

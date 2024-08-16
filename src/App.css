@@ -1,5 +1,6 @@
 :root {
-  --bg: #d32e2e;
+  /* --bg: #d32e2e; */
+  --bg: #692020
 }
 a {
   text-decoration: none !important;

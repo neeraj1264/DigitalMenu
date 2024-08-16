@@ -109,7 +109,7 @@ const Cards = ({ id, name, description, price, image, mrp }) => {
                 style={{
                   color: "whitesmoke",
                   border: "none",
-                  background: "#d32e2e",
+                  background: "var(--bg)",
                   borderRadius: ".5rem",
                   padding: ".2rem .5rem",
                   boxShadow: "1px 0px 3px 3px white"

@@ -63,7 +63,7 @@ function App() {
 
   return (
    <>
-        {Loading ? <HashLoader color="#d32e2e" style={{position: 'absolute', top: '50%', left: '50%'}}/> : (
+        {Loading ? <HashLoader color="var(--bg)" style={{position: 'absolute', top: '50%', left: '50%'}}/> : (
  
  <Routes>
     <Route path="" element={<Layout />}>

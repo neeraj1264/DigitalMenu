@@ -34,7 +34,7 @@ const Cart = ({ id }) => {
   useEffect(() => {
     setTimeout(() => {
       SetLoading(false);
-    }, 500);
+    }, 1000);
   });
   const handleRemoveItem = (productId) => {
     removeCartItem(productId);
@@ -216,7 +216,7 @@ ${productDetails}
         <h2 className="cart-header">Shopping Cart</h2>
         {Loading ? (
           <HashLoader
-            color="#d32e2e"
+            color="var(--bg)"
             style={{ position: "absolute", top: "50%", left: "50%" }}
           />
         ) : (
