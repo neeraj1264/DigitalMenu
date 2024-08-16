@@ -45,7 +45,7 @@ const renderCards = (data) => {
 const Pasta = () => {
   return (
     <>
-      <h2 id="mojito" style={{ textAlign: "center", marginTop: "6rem" }}>
+      <h2 id="mojito" style={{ textAlign: "center", marginTop: "7rem" }}>
         Delicious Mojito
       </h2>
       {renderCards(mojitoData)}

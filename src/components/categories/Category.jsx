@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "./Category.css";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, NavLink } from "react-router-dom";
+import { FaArrowLeft } from "react-icons/fa6";
+import { FaArrowCircleLeft } from "react-icons/fa";
+import { FaArrowLeftLong } from "react-icons/fa6";
 
 const categories = [
   { id: 16, name: "juice", image: "/img/juice/mix.jpeg" },
@@ -35,8 +38,16 @@ function Category() {
     }
   };
 
+  // const HomeNavigate = () =>{
+  //   navigate("/")
+  // }
+
   return (
+    <>
     <div className="outer-card">
+      <NavLink to={"/"}>
+    <FaArrowLeftLong className="leftarrow"/>
+    </NavLink>
       {categories.map((category) => (
         <Link
           to={`#${encodeURIComponent(category.name)}`}
@@ -56,6 +67,7 @@ function Category() {
         </Link>
       ))}
     </div>
+    </>
   );
 }
 

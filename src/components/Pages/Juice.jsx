@@ -63,7 +63,7 @@ const renderCards = (data) => {
 const Juice = () => {
   return (
     <>
-      <h2 id="juice" style={{ textAlign: "center", marginTop: "6rem" }}>
+      <h2 id="juice" style={{ textAlign: "center", marginTop: "7rem" }}>
         Fresh Juices
       </h2>
       {renderCards(Data)}

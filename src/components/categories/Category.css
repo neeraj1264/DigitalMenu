@@ -9,7 +9,7 @@
   
   .card {
     width: auto;
-    margin: 0 0.5rem;
+    margin: 1rem 0.5rem 0;
     border: none;
   }
   .card img{
@@ -44,4 +44,10 @@
     box-shadow: 1px 0px 3px 3px var(--bg);
   }
 
-  
+  .leftarrow{
+    z-index: 1001;
+    font-size: 1.3rem;
+    position: fixed;
+    top: 0;
+    color: var(--bg);
+  }

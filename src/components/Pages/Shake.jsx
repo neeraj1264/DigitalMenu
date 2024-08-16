@@ -80,7 +80,7 @@ const renderCards = (data) => {
 const Shake = () => {
   return (
     <>
-      <h2 id="shake" style={{ textAlign: "center", marginTop: "6rem" }}>
+      <h2 id="shake" style={{ textAlign: "center", marginTop: "7rem" }}>
         Thick Shakes wth icecream
       </h2>
       {renderCards(ShakesData)}

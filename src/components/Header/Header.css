@@ -5,6 +5,11 @@
     padding-left: 1rem !important;
     padding-right: 1rem !important;
 }
+.headername{
+   text-align: center;
+   font-weight: 700;
+   font-size: 1.1rem;
+}
 .chat{
     text-align: center;
     font-weight: 700;
@@ -21,6 +26,6 @@
     /* border-radius: 1rem;
     border: 1px solid darkgoldenrod; */
 }
-.navbar{
+/* .navbar{
     padding: 0;
-}
+} */

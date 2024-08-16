@@ -12,7 +12,7 @@ const Burger = () => {
   
   return (
     <>
-      <h2 id='burger' style={{textAlign: 'center' , marginTop: '6rem'}}>Delicious Burger</h2>
+      <h2 id='burger' style={{textAlign: 'center' , marginTop: '7rem'}}>Delicious Burger</h2>
       {renderCards(BurgerData)}
     </>
   );

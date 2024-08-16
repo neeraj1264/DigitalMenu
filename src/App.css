@@ -1,6 +1,6 @@
 :root {
   /* --bg: #d32e2e; */
-  --bg: #692020
+  --bg: #4d2222
 }
 a {
   text-decoration: none !important;
@@ -11,8 +11,8 @@ a {
 }
 
 .add-to-cart img {
-  width: 4.9rem;
-  height: 3.5rem;
+  width: 5.9rem;
+  height: 4.5rem;
   border-radius: 1rem;
 }
 .add-btn {

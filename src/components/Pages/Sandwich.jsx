@@ -59,7 +59,7 @@ const renderCards = (data) => {
 const Sandwich = () => {
   return (
     <>
-      <h2 id="sandwich" style={{ textAlign: "center", marginTop: "6rem" }}>
+      <h2 id="sandwich" style={{ textAlign: "center", marginTop: "7rem" }}>
         Delicious Sandwich
       </h2>
       {renderCards(SandwichData)}
