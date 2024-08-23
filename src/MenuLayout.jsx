@@ -7,6 +7,7 @@ import Shake from './components/Pages/Shake';
 import Cakes from './components/Pages/cakes/Cakes';
 import Juice from './components/Pages/Juice';
 import Footer from './components/footer/Footer';
+import Pizza from './components/Pages/Pizza/Pizza';
 // import { HashLoader } from 'react-spinners';
 
 
@@ -28,9 +29,10 @@ const MenuLayout = () => {
     <Juice/>
    <Shake/>
    <Mojito/>
-   <Burger/>
    <Sandwich/>
    <Cakes/>
+   <Burger/>
+   <Pizza/>
    <Footer/>
    {/* </>
             )} */}

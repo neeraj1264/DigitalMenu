@@ -12,10 +12,11 @@ bottom: -14px;
   }
   .carousel-inner img{
       height: 35rem;
-      margin: 5rem 1rem 1rem 1rem;
-      box-shadow: 2px 1px 2px 2px black;
+      margin: 5rem auto 1rem;
+      box-shadow: 8px 6px 1px 3px black;
       border-radius: 2rem;
       width: 90%;
+      padding: .5rem;
   }
   @media (max-width: 499px) {
       .carousel-inner img{
@@ -37,10 +38,10 @@ bottom: -14px;
 } 
 @media (min-width: 891px) {
   .carousel-inner img{
-      height: 30rem;
-      padding: 1rem;
+      height: 26rem;
+      /* padding: 1rem;
       border-radius: 2rem;
-      margin: 3rem 4rem 4rem 0;
+      margin: 3rem 4rem 4rem 0; */
   }
 } 
     .carousel-indicators button {

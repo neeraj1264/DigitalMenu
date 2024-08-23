@@ -9,9 +9,10 @@ const categories = [
   { id: 16, name: "juice", image: "/img/juice/mix.jpeg" },
   { id: 5, name: "shake", image: "/img/shakes.jpg" },
   { id: 4, name: "mojito", image: "/img/mojito/mojito.jpeg" },
-  { id: 2, name: "burger", image: "/img/burger.png" },
   { id: 3, name: "sandwich", image: "/img/cornsand.jpg" },
   { id: 13, name: "cakes", image: "/img/cakes/choco.jpg" },
+  { id: 2, name: "burger", image: "/img/burger.png" },
+  { id: 1, name: "pizza", image: "/img/pizza.png" },
 ];
 
 function Category() {
